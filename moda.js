@@ -17,7 +17,7 @@ lista1.map(  //Esta funcion cuenta cuantas veces aparece cada elemento en el arr
     }
 );
 
-const lista1Array = Object.entries(lista1Count).sort(
+const lista1Array = Object.entries(lista1Count).sort(  //Convertir un objeto en un array y ordenarlo con sort
     function(elementoA, elementoB)
     {
         return elementoA[1] - elementoB[1];
